@@ -1,0 +1,74 @@
+p {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+li {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+h1 {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+#prof-container {
+  background-color: hsl(0, 0%, 96%);
+  padding-right: 100px;
+},
+.projcolumn{
+  background-color: inherit;
+}
+ #education{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+#text{
+  display: flex;
+
+}
+/* .navbar {
+  outline: 1px;
+  outline-color: black;
+} */
+.tabs {
+  outline: 1px;
+  outline-color: black;
+  background-color: white;
+  position: sticky;
+}
+
+#ancestor {
+  padding: 3% 10%;
+}
+
+#stubborn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#stubborntext {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* #glogo {
+  display: flex;
+  resize: vertical;
+} */
