@@ -4,14 +4,14 @@ Vue.component('contact', {
     template:
     `<div id='ancestor' class="tile is-ancestor">
   <div class="tile is-4 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div data-aos="flip-down" class="tile is-child box">
     <a href="https://github.com/tpalzkill">
       <figure class="image">
       <img src='https://2.bp.blogspot.com/-HeghwWyWOGQ/VU4kbFtws5I/AAAAAAAAA1o/WN8SAVMliQA/s1600/GitHub%2BLogo%2BBanner.png' alt='GitHub'/>
       </figure>
       </a>
     </div>
-    <div class="tile is-child box">
+    <div data-aos="flip-down" class="tile is-child box">
     <a href="https://www.linkedin.com/in/thomaspalzkill/">
     <figure class="image">
       <img src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn' id='LinkedIn_Logo'/>
@@ -20,7 +20,7 @@ Vue.component('contact', {
     </div>
   </div>
   <div class="tile is-parent">
-    <div class="tile is-child box">
+    <div data-aos="flip-up" class="tile is-child box">
       <p class="title">Direct</p>
       <div class='content'>
       <table>

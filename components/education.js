@@ -4,25 +4,25 @@ Vue.component('education', {
     template:
     `<div id='ancestor' class="tile is-ancestor">
   <div class="tile is-parent">
-    <div class="tile is-child box">
+    <div data-aos="fade-right" class="tile is-child box">
       <p class="title">Galvanize Austin</p>
       <p class="subtitle">October 2017 - April 2018</p>
       <div class='is-child column' id='stubborn'>
       <a href="https://www.galvanize.com/austin/campus">
         <img src='static/img/galvanize.svg' alt='galvy' id='galvy' width='350'/>
               </a>
-      <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+      <p>My time at Galvanize gave me the time to hone my skills. The curriculum has its students focus heavilly on the in's and out's of javaScript, before diving into backend work, unfamiliar environments and independent study.</p>
       </div>
     </div>
   </div>
   <div class="tile is-5 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div data-aos="fade-left" class="tile is-child box">
       <p class="title">University of Houston</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      <p>In University I studied Politcial Science and Energy and Sustainability. I use the critical thinking skills I learned there in every decision I make. Happy to be a graduate of one the most diverse Universities in the nation. Go Coogs!</p>
     </div>
-    <div class="tile is-child box">
+    <div data-aos="fade-up-left" class="tile is-child box">
       <p class="title">McCormick and Schmick's</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      <p>Throughout my time in college I worked as a server. It is hard to match the camaraderie thst exists among restaurant staffs. Waiting tables was one of the most consistently challenging things I have ever had to do. </p>
     </div>
   </div>
 </div>
