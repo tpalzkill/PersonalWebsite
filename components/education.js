@@ -3,24 +3,34 @@ Vue.component('education', {
     // setting the template that this component will use to render
     template:
     `<div id='ancestor' class="tile is-ancestor">
-  <div class="tile is-parent">
-    <div data-aos="fade-right" class="tile is-child box">
+  <div class="tile is-vertical is-parent">
+  <div data-aos="fade-right" data-aos-duration="1300" class="tile is-child box">
+  <figure id='classpicture' class="image">
+  <img src='static/img/707d02ca-1a17-4fe7-bd58-7331e6292c01-original.jpeg' id='class'/>
+  </figure>
+  </div>
+    <div data-aos="fade-right" data-aos-duration="1300" class="tile is-child box">
       <p class="title">Galvanize Austin</p>
       <p class="subtitle">October 2017 - April 2018</p>
+
       <div class='is-child column' id='stubborn'>
       <a href="https://www.galvanize.com/austin/campus">
         <img src='static/img/galvanize.svg' alt='galvy' id='galvy' width='350'/>
-              </a>
-      <p>My time at Galvanize gave me the time to hone my skills. The curriculum has its students focus heavilly on the in's and out's of javaScript, before diving into backend work, unfamiliar environments and independent study.</p>
+      </a>
+      <p>My time at Galvanize gave me the time to hone my skills. The curriculum has its students focus heavilly on the in's and out's of javaScript before diving into backend work, unfamiliar environments and independent study.</p>
       </div>
+
     </div>
   </div>
   <div class="tile is-5 is-vertical is-parent">
-    <div data-aos="fade-left" class="tile is-child box">
+    <div data-aos="fade-left" data-aos-duration="1300" class="tile is-child box">
       <p class="title">University of Houston</p>
-      <p>In University I studied Politcial Science and Energy and Sustainability. I use the critical thinking skills I learned there in every decision I make. Happy to be a graduate of one the most diverse Universities in the nation. Go Coogs!</p>
+      <figure id='coogs' class="image">
+      <img src='static/img/coogs.png' id='class'/>
+      </figure>
+      <p> At University I studied Politcial Science and Energy and Sustainability. I use the critical thinking skills I learned there in every decision I make. Happy to be a graduate of one the most diverse Universities in the nation. Go Coogs!</p>
     </div>
-    <div data-aos="fade-up-left" class="tile is-child box">
+    <div data-aos="fade-up-left" data-aos-duration="1300" class="tile is-child box">
       <p class="title">McCormick and Schmick's</p>
       <p>Throughout my time in college I worked as a server. It is hard to match the camaraderie thst exists among restaurant staffs. Waiting tables was one of the most consistently challenging things I have ever had to do. </p>
     </div>

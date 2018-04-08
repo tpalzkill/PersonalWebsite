@@ -21,23 +21,21 @@ Vue.component('static-profile', {
         </div>
       </div>
       <div class='hero-foot'>
-        <nav class='navbar is-fixed-bottom '>
-          <div class='navbar-brand'>
-            <p class='navbar-item title'>Thomas Palzkill</p>
+        <nav class='navbar is-fixed-bottom' role="navigation">
+          <div class='navbar-brand colorchanging'>
+            <p class='navbar-item title colorchanging'>Thomas Palzkill</p>
           </div>
-          <div class='navbar-start'>
-            <div class='tabs is-fullwidth' id='navtabs'>
-              <div class='container navbar-item'>
-                <ul class='navbar-item'>
-                  <li class='navbar-item'><a href='#profile'>Profile</a></li>
-                  <li class='navbar-item'><a href='#projects'>Projects</a></li>
-                  <li class='navbar-item'><a href='#educationshit'>Education</a></li>
-                  <li class='navbar-item'><a href='#contact'>Contact</a></li>
-                  <li class='navbar-item'><a>More</a></li>
+          <div class='navbar-end'>
+            <div class='tabs navbar-item is-medium' id='navtabs'>
+                <ul>
+                  <li><a class='navbar-item is-tab colorchanging' href='#profile'>Profile</a></li>
+                  <li><a class='navbar-item is-tab colorchanging' href='#projects'>Projects</a></li>
+                  <li><a class='navbar-item is-tab colorchanging' href='#educationshit'>Education</a></li>
+                  <li><a class='navbar-item is-tab colorchanging' href='#contact'>Contact</a></li>
+                  <li><a class='navbar-item is-tab colorchanging'>More</a></li>
                 </ul>
-              </div>
             </div>
-          </div>
+            </div>
         </nav>
       </div>
     </section>`,

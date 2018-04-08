@@ -8,8 +8,8 @@ h1 {
   font-family: 'Archivo Narrow', sans-serif;
 }
 #prof-container {
-  position: relative;
-  z-index: 100;
+
+
   background-color: hsl(0, 0%, 96%);
   /* padding-right: 160px; */
   /* background-image: url('./img/suricata_second_by_kulibrnda.png');
@@ -26,8 +26,7 @@ h1 {
 	height:100%;
 } */
 #clock{
-	display:flex;
-  position: inherit;
+
 	left:80%;
 	top:0;
   z-index: -100;
@@ -44,9 +43,7 @@ h1 {
 			transform:translateY(-50%) translateX(-50%);
 	}
 }
-#profile {
-  position: relative;
-}
+
 
 .projcolumn{
   background-color: inherit;
@@ -66,10 +63,9 @@ h1 {
   display: flex;
 
 }
-/* .navbar {
-  outline: 1px;
-  outline-color: black;
-} */
+#coogs{
+  width: inherit;
+}
 .tabs {
   outline: 1px;
   outline-color: black;
@@ -89,7 +85,66 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 }
-/* #glogo {
-  display: flex;
-  resize: vertical;
-} */
+#navtabs {
+  padding-right: 40px;
+}
+
+.colorchanging{
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+   0% {
+
+     color: turquoise;
+   }
+
+   10% {
+
+     color: #9e2c52;
+   }
+
+   20% {
+
+     color: #1abc9c;
+   }
+
+   30% {
+
+     color: yellow;
+   }
+
+   40% {
+
+     color: turquoise;
+   }
+
+   50% {
+
+     color: #34495e;
+   }
+
+   60% {
+
+     color: turquoise;
+   }
+
+   70% {
+
+     color: #2980b9;
+   }
+   80% {
+
+     color: #f1c40f;
+   }
+
+   90% {
+
+     color: #2980b9;
+   }
+
+   100% {
+
+     color: green;
+   }
+ }
